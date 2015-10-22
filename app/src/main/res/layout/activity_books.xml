@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name=".RetrieveAccessTokenActivity">
+
+
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_marginBottom="10dp"
+        android:text="loading...."
+        android:gravity="center"
+        android:textSize="36sp"
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/rv"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <TextView
+        android:id="@+id/no_book"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_marginBottom="10dp"
+        android:text="You have no books."
+        android:gravity="center"
+        android:textSize="36sp"
+        tools:visibility="gone"
+        />
+
+
+
+
+</LinearLayout>
